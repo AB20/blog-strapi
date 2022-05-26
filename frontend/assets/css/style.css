@@ -1,14 +1,18 @@
+body {
+  font-family: 'Raleway', sans-serif !important;
+}
+
 a {
     text-decoration: none;
   }
   
   h1 {
-    /* font-family: Staatliches; 
-    font-size: 120px; */
+    font-family: 'Raleway', sans-serif !important;
+    /* font-size: 120px; */ 
   }
   
   #category {
-    /* font-family: Staatliches; */
+    font-family: 'Raleway', sans-serif !important;
     font-weight: 500;
   }
   
@@ -32,7 +36,7 @@ a {
   
   .uk-navbar-container {
     background: #fff !important;
-    font-family: Staatliches;
+    font-family: 'Raleway', sans-serif !important;
   }
   
   img:hover {
