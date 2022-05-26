@@ -30,8 +30,8 @@ const Footer = ({}) => {
                         </ul>
                     </div>
                     <div className="col-md-6 col-lg-2 custom-links mt-1">
-                        <h6 className="footer-heading">Contact</h6>
-                        <ul className="list-unstyled company-sub-menu">
+                        <p className="">Contact</p>
+                        <ul className="list-unstyled">
                             <li className=""><a href="mailto:info@sireni.com"><i className="far fa-envelope fa-lg footerIcons"></i></a></li>
                         </ul>
                     </div>
