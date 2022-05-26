@@ -39,7 +39,7 @@ const Footer = ({}) => {
             </div>
 
             <div className="footer-alt text-center mt-1">
-                <p className="mb-0" >2022 © Sireni, LLC. All Rights Reserved.</p>
+                <p className="" >2022 © Sireni, LLC. All Rights Reserved.</p>
          </div>
     </footer>
   );

@@ -14,7 +14,7 @@ const Home = ({ articles, categories, homepage }) => {
           <h1>{homepage.attributes.hero.title}</h1>
           <Articles articles={articles} />
         </div>
-        <div className="">
+        <div className="uk-sticky position:bottom">
           <Footer/>
         </div>
       </div>
