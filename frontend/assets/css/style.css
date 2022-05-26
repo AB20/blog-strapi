@@ -34,16 +34,37 @@ a {
     font-size: 1rem;
     line-height: 1.75;
   }
+
+  .uk-container{
+    margin-bottom: 125px;
+  }
   
   .uk-navbar-container {
     background: #709E92 !important;
-    color: white !important;
+    color: white;
     font-family: 'Raleway', sans-serif !important;
+    border-bottom: solid 0.15rem #2D4A4D;
+  }
+
+  .uk-link-reset:hover {
+    color: #000000 !important;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.3s ease-in;
   }
 
   #navHomeLink{
     color: white !important;
     font-family: 'Raleway', sans-serif !important;
+  }
+
+  #navHomeLink:hover{
+    color: #000000 !important;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.3s ease-in;
   }
   
   img:hover {
@@ -248,7 +269,6 @@ html {
 }
 
 footer {
-  margin: 0px;
   background:  #709E92;
   padding: 20px; 
   color: #F0F5F8;
@@ -4229,41 +4249,6 @@ textarea.form-control-lg {
 .tab-content > .active {
   display: block;
 }
-
-.navbar {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  background-color: #709E92;
-  margin: 0;
-  border-bottom: solid 0.15rem #2D4A4D;
-}
-.navbar > .container,
-.navbar > .container-fluid,
-.navbar > .container-sm,
-.navbar > .container-md,
-.navbar > .container-lg,
-.navbar > .container-xl,
-.navbar > .container-xxl {
-  display: flex;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav-item:hover {
-  color: #000000;
-  text-shadow:0px 20px 40px #000000;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.3s ease-in;
-}
-
 
 .fadeInImg {
   margin-top: 25px;

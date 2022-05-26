@@ -9,7 +9,6 @@ const Footer = ({}) => {
                 <div className="row">
                     <div className="col-md-6 col-lg-4">
                         <p className="footer-desc">Modernize Applications. Reinvent Workflows.</p>
-                        <p>Flexibility. Security.</p>
                         <p className="footer-desc pt-0"><strong>Less Work. More Time.</strong></p>
                     </div>
                     <div className="col-md-6 col-lg-4 custom-links mt-1">
