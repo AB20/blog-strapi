@@ -37,6 +37,10 @@ a {
   .uk-container{
     margin-bottom: 125px;
   }
+
+  .uk-card:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
   
   .uk-navbar-container {
     background: #709E92 !important;
