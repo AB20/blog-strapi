@@ -2,6 +2,7 @@ import React from "react";
 import Articles from "../components/articles";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+import Footer from "../components/footer";
 import { fetchAPI } from "../lib/api";
 
 const Home = ({ articles, categories, homepage }) => {
@@ -12,6 +13,9 @@ const Home = ({ articles, categories, homepage }) => {
         <div className="uk-container uk-container-large">
           <h1>{homepage.attributes.hero.title}</h1>
           <Articles articles={articles} />
+        </div>
+        <div className="uk-container uk-container-large">
+          <Footer/>
         </div>
       </div>
     </Layout>
